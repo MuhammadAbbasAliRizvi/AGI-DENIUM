@@ -1,5 +1,5 @@
         /* ============================================
-           CSS Variables & Reset
+           CSS Variables & Resets
         ============================================ */
         :root {
             /* Enhanced Color Palette */
@@ -549,8 +549,8 @@
            Chip-off Section with Background Image
         ============================================ */
         .chip-off-bg {
-            background: linear-gradient(rgba(63, 84, 112, 0.9), rgba(26, 54, 93, 0.95)),
-                        url('https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')
+            background: linear-gradient(#eff5ff56, rgba(4, 69, 155, 0.658)),
+                        url('./imgs/Website-Main-Banner.jpg')
                         no-repeat center center/cover;
             color: white;
             padding: var(--space-xxl) 0;
@@ -1005,7 +1005,7 @@
         }
 
         .sustainability .section-title {
-            color: white;
+            color: rgb(240, 235, 235);
         }
 
         .sustainability .section-title::after {
@@ -1024,7 +1024,7 @@
         ============================================ */
         .contact {
             padding: var(--space-xxl) 0;
-            background: white;
+            background: rgb(255, 255, 255);
             position: relative;
         }
 
